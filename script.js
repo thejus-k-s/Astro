@@ -1,4 +1,6 @@
-// CUSTOM CURSOR
+document.addEventListener("DOMContentLoaded", () => {
+
+  // CUSTOM CURSOR
 const cursor = document.getElementById('cursor');
 const ring = document.getElementById('cursorRing');
 let mx = 0, my = 0, rx = 0, ry = 0;
@@ -151,3 +153,4 @@ window.addEventListener('scroll', () => {
     if(link) { if(y >= top && y < bot) link.style.color='var(--neon-cyan)'; else link.style.color=''; }
   });
 });
+  });
