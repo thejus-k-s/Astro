@@ -1,4 +1,3 @@
-<script>
 // CUSTOM CURSOR
 const cursor = document.getElementById('cursor');
 const ring = document.getElementById('cursorRing');
@@ -152,4 +151,3 @@ window.addEventListener('scroll', () => {
     if(link) { if(y >= top && y < bot) link.style.color='var(--neon-cyan)'; else link.style.color=''; }
   });
 });
-</script>
