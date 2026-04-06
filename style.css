@@ -358,7 +358,7 @@ section { position: relative; z-index: 10; }
 .t-cursor { display:inline-block;width:8px;height:16px;background:var(--neon-cyan);animation:blink 1s step-end infinite;vertical-align:middle; }
 /* EVENTS */
 #events { background: linear-gradient(180deg, #030610 0%, #040812 100%); }
-.events-list { display: flex; flex-direction: column; gap: 18px; }
+.events-list { display: flex; flex-direction: column; gap: 18px; width: 100%; }
 
 .event-card {
   background: var(--bg-card); border: 1px solid var(--border-dim);
