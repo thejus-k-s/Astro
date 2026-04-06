@@ -414,8 +414,11 @@ section { position: relative; z-index: 10; }
 
 /* FEATURE SKY — Astronomical Objects */
 #sky { background: #040812; }
-.sky-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-
+.sky-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
 .sky-card {
   background: var(--bg-card); border: 1px solid var(--border-dim);
   padding: 36px 28px;
